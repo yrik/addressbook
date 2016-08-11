@@ -31,6 +31,7 @@ source env/bin/activate
 
 git clone git@github.com:yrik/addressbook.git
 cd addressbook
+python setup.py test
 pip install .
 cd ..
 python
