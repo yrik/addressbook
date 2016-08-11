@@ -1,7 +1,18 @@
 Address Book storage library
 ================================
 The assignment is to implement a simple address book library in Python.
+Read [here](https://github.com/gingerpayments/hiring/blob/master/coding-assignments/python-address-book-assignment/python-address-book-assignment.rst#requirements) about requirements 
 
+Note: it stores all the data in memory,  for future usage it should be extended with DB/File based storage.
+In real production case I would use Django Rest Framework and queries to the database to achieve this functionality.
+
+
+**See answer to design question below**
+
+>Find person by email address (can supply any substring, ie. "comp" should work assuming "alexander@company.com" is an email address in the address book) - discuss how you would implement this without coding the solution.
+
+I would use following check `if 'comp' in "alexander@company.com"` while looking for relevant objects using Python.
+In case of database storage email should be indexed column and I will use query `LIKE '%'`.
 
 Basic Usage. API calls examples.
 ================================
