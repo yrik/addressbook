@@ -11,7 +11,9 @@ Requirements
 - Python 2.7
 
 
-```python
+API call examples.
+
+``` python
 
 from addressbook import AddressBook
 
@@ -47,5 +49,4 @@ address_book.find_persons(email='john@xample.com')
 
 # Find person using email prefix
 address_book.find_persons(email='john')
-
 ```
