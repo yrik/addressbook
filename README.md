@@ -21,6 +21,22 @@ Requirements
 
 - Python 2.7
 
+Installation
+
+```
+mkdir testapp
+cd testapp
+virtualenv env
+source env/bin/activate
+
+git clone git@github.com:yrik/addressbook.git
+cd addressbook
+pip install .
+cd ..
+python
+from addressbook import AddressBook
+```
+
 
 API call examples.
 
