@@ -17,11 +17,11 @@ In case of database storage email should be indexed column and I will use query 
 Basic Usage. API calls examples.
 ================================
 
-Requirements
+*Requirements*
 
 - Python 2.7
 
-Installation
+*Installation*
 
 ```
 mkdir testapp
@@ -39,7 +39,7 @@ from addressbook import AddressBook
 ```
 
 
-API call examples.
+*API call examples.*
 
 ``` python
 
